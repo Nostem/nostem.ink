@@ -43,7 +43,7 @@
       </div>
 
       <div class="space-y-6">
-        <h2 class="text-3xl font-light" style="color: #2DD4BF;">//Now//</h2>
+        <h2 class="text-3xl font-light" style="color: #2DD4BF;">//NOW//</h2>
         <p class="text-slate-400 mb-6">Updated December 16, 2025</p>
         <div class="space-y-6">
           <div class="bg-slate-800 p-6 rounded-lg border border-slate-700">
@@ -56,50 +56,59 @@
           </div>
           <div class="bg-slate-800 p-6 rounded-lg border border-slate-700">
             <h3 class="font-medium mb-2 text-teal-400">Reading</h3>
-            <p class="text-slate-300">Deep dives into consciousness and metaphysics, history, and philosophy</p>
+            <p class="text-slate-300">Deep dives into consciousness and metaphysics</p>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Writing with Categories -->
-    <section id="writing" class="hidden max-w-5xl space-y-12">
+    <!-- Writing with Tile Categories -->
+    <section id="writing" class="hidden space-y-12">
       <h2 class="text-3xl font-light mb-10" style="color: #E07A5F;">Writing</h2>
 
-      <div class="space-y-10">
-        <div>
-          <h3 class="text-2xl font-medium" style="color: #C084FC;">Essays</h3>
-          <div class="space-y-8 mt-6">
-            <!-- Add your essays here -->
-            <div class="border-l-4 border-purple-400 pl-8">
-              <a href="#" class="text-xl text-purple-300 hover:text-purple-200">Title of Essay 1</a>
-              <p class="text-slate-400 mt-2">Date</p>
-              <p class="text-slate-300 mt-3">Short preview or excerpt...</p>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Essays Tile -->
+        <div class="bg-slate-800 border border-slate-700 rounded-xl p-8 hover:shadow-2xl hover:scale-105 transition-all duration-300">
+          <h3 class="text-2xl font-medium mb-2" style="color: #C084FC;">Essays</h3>
+          <p class="text-slate-400 mb-1 text-sm">3 posts</p>
+          <p class="text-slate-300 mb-6 text-sm">Longer-form thoughts on systems, finance, consciousness, and building.</p>
+          <div class="space-y-6">
+            <!-- Example posts -->
+            <div class="border-l-4 border-purple-400 pl-6">
+              <a href="#" class="text-lg text-purple-300 hover:text-purple-200">Title of Essay 1</a>
+              <p class="text-slate-400 text-sm mt-1">Date</p>
             </div>
+            <!-- Add more here -->
           </div>
         </div>
 
-        <div>
-          <h3 class="text-2xl font-medium" style="color: #C084FC;">Poems</h3>
-          <div class="space-y-8 mt-6">
-            <!-- Add your poems here -->
-            <div class="border-l-4 border-purple-400 pl-8">
-              <a href="#" class="text-xl text-purple-300 hover:text-purple-200">Title of Poem 1</a>
-              <p class="text-slate-400 mt-2">Date</p>
-              <p class="text-slate-300 mt-3 italic">First few lines...</p>
+        <!-- Poems Tile -->
+        <div class="bg-slate-800 border border-slate-700 rounded-xl p-8 hover:shadow-2xl hover:scale-105 transition-all duration-300">
+          <h3 class="text-2xl font-medium mb-2" style="color: #C084FC;">Poems</h3>
+          <p class="text-slate-400 mb-1 text-sm">2 posts</p>
+          <p class="text-slate-300 mb-6 text-sm">Expressions in verse — reflections on life, nature, and the unseen.</p>
+          <div class="space-y-6">
+            <!-- Example posts -->
+            <div class="border-l-4 border-purple-400 pl-6">
+              <a href="#" class="text-lg text-purple-300 hover:text-purple-200">Title of Poem 1</a>
+              <p class="text-slate-400 text-sm mt-1">Date</p>
             </div>
+            <!-- Add more here -->
           </div>
         </div>
 
-        <div>
-          <h3 class="text-2xl font-medium" style="color: #C084FC;">Random</h3>
-          <div class="space-y-8 mt-6">
-            <!-- Add your random thoughts/notes here -->
-            <div class="border-l-4 border-purple-400 pl-8">
-              <a href="#" class="text-xl text-purple-300 hover:text-purple-200">Random Thought #1</a>
-              <p class="text-slate-400 mt-2">Date</p>
-              <p class="text-slate-300 mt-3">Quick idea or observation...</p>
+        <!-- Random Tile -->
+        <div class="bg-slate-800 border border-slate-700 rounded-xl p-8 hover:shadow-2xl hover:scale-105 transition-all duration-300">
+          <h3 class="text-2xl font-medium mb-2" style="color: #C084FC;">Random</h3>
+          <p class="text-slate-400 mb-1 text-sm">5 posts</p>
+          <p class="text-slate-300 mb-6 text-sm">Quick notes, ideas, observations, and fleeting thoughts.</p>
+          <div class="space-y-6">
+            <!-- Example posts -->
+            <div class="border-l-4 border-purple-400 pl-6">
+              <a href="#" class="text-lg text-purple-300 hover:text-purple-200">Random Thought #1</a>
+              <p class="text-slate-400 text-sm mt-1">Date</p>
             </div>
+            <!-- Add more here -->
           </div>
         </div>
       </div>
@@ -117,7 +126,7 @@
 
         <!-- The Ra Material -->
         <button onclick="showBookDetail(2)" class="focus:outline-none">
-          <img src="https://m.media-amazon.com/images/I/71YBS+FBNLL._SL1500_.jpg" alt="The Ra Material (Law of One) cover" class="w-full rounded-lg shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300">
+          <img src="https://m.media-amazon.com/images/I/71f6+0s9LZL.jpg" alt="The Ra Material (Law of One) cover" class="w-full rounded-lg shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300">
         </button>
       </div>
 
@@ -130,7 +139,7 @@
 
   <script>
     const books = [
-      null, // index 0 placeholder
+      null, // placeholder
       {
         id: 1,
         title: "Becoming Your Own Banker",
@@ -148,7 +157,7 @@
         published: "1984 (Book I)",
         read: 2020,
         rating: 5,
-        cover: "https://m.media-amazon.com/images/I/71YBS+FBNLL._SL1500_.jpg",
+        cover: "https://m.media-amazon.com/images/I/71f6+0s9LZL.jpg",
         thoughts: "Profound channeled material on unity, densities, and the nature of reality. One of the most impactful spiritual texts I've encountered."
       }
     ];
@@ -156,9 +165,8 @@
     function showSection(section) {
       document.querySelectorAll('section').forEach(s => s.classList.add('hidden'));
       document.getElementById(section).classList.remove('hidden');
-      document.getElementById('book-detail').classList.add('hidden'); // Hide detail if switching tabs
+      document.getElementById('book-detail').classList.add('hidden');
       
-      // Update active tab
       document.querySelectorAll('nav button').forEach(btn => {
         btn.classList.remove('border-teal-400', 'text-teal-400');
         btn.classList.add('text-slate-400', 'hover:text-slate-200');
@@ -201,7 +209,6 @@
       window.scrollTo(0, 0);
     }
 
-    // Start on About
     document.addEventListener('DOMContentLoaded', () => showSection('about'));
   </script>
 </body>
