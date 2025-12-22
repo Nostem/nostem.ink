@@ -19,7 +19,7 @@ const books = [
     rating: 5,
     cover: "https://m.media-amazon.com/images/I/71YBS+FBNLL._SL1500_.jpg",
     thoughts: "Profound channeled material on unity, densities, and the nature of reality. One of the most impactful spiritual texts I've encountered."
-  }
+  },
  {
     id: 3,
     title: "1984",
