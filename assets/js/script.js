@@ -20,6 +20,16 @@ const books = [
     cover: "https://m.media-amazon.com/images/I/71YBS+FBNLL._SL1500_.jpg",
     thoughts: "Profound channeled material on unity, densities, and the nature of reality. One of the most impactful spiritual texts I've encountered."
   }
+ {
+    id: 3,
+    title: "1984",
+    author: "George Orwell",
+    published: "1949 (Original)",
+    read: 2017,
+    rating: 5,
+    cover: "https://m.media-amazon.com/images/I/715WdnBHqYL._SL1500_.jpg",
+    thoughts: "Beautifully written. Eye-opening, brings us in touch with alternate timeline that isn't too distant from our own."
+  }
 ];
 
 function showBookDetail(bookId) {
