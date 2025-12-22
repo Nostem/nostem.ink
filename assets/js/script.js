@@ -27,7 +27,7 @@ const books = [
     published: "1949 (Original)",
     read: 2017,
     rating: 5,
-    cover: "https://m.media-amazon.com/images/I/715WdnBHqYL._SL1500_.jpg",
+    cover: "https://m.media-amazon.com/images/I/81qZ5kGMQ1L._SL1500_.jpg",
     thoughts: "Beautifully written. Eye-opening, brings us in touch with alternate timeline that isn't too distant from our own."
   }
 ];
