@@ -162,19 +162,6 @@
       }
     ];
 
-    function showSection(section) {
-      document.querySelectorAll('section').forEach(s => s.classList.add('hidden'));
-      document.getElementById(section).classList.remove('hidden');
-      document.getElementById('book-detail').classList.add('hidden');
-      
-      document.querySelectorAll('nav button').forEach(btn => {
-        btn.classList.remove('border-teal-400', 'text-teal-400');
-        btn.classList.add('text-slate-400', 'hover:text-slate-200');
-      });
-      event.target.classList.add('border-b-2', 'border-teal-400', 'text-teal-400');
-      event.target.classList.remove('text-slate-400', 'hover:text-slate-200');
-    }
-
     function showBookDetail(bookId) {
       const book = books[bookId];
       const detail = document.getElementById('book-detail');
