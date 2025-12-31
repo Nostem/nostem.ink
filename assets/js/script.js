@@ -39,6 +39,16 @@ const books = [
     rating: 3,
     cover: "https://m.media-amazon.com/images/I/81dD6yByLeL._SL1500_.jpg",
     thoughts: "Walks you through the different metabolic types and what foods are optimal for each. Contains a questionnaire for determining your own metabolic type and provides detailed guidance on how to incorporate. Dense, but full of information. I've used it to look up various nutritional style questions."
+  },
+   {
+    id: 5,
+    title: "The Stand",
+    author: "Stephen King",
+    published: "2008",
+    read: 2017,
+    rating: 4,
+    cover: "https://m.media-amazon.com/images/I/81LTcWSIgkL._SL1500_.jpg",
+    thoughts: "Gripping story exploring themes of good vs. evil in a post-apocalyptic world."
   }
 ];
 
